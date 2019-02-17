@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a54d00066b45185a1a17",
-    "url": "/wordpress-migration/static/css/main.cce3c9df.chunk.css"
+    "revision": "de97d5e36685b97159b0",
+    "url": "/wordpress-migration/static/css/main.79727c34.chunk.css"
   },
   {
-    "revision": "a54d00066b45185a1a17",
-    "url": "/wordpress-migration/static/js/main.a54d0006.chunk.js"
+    "revision": "de97d5e36685b97159b0",
+    "url": "/wordpress-migration/static/js/main.de97d5e3.chunk.js"
   },
   {
     "revision": "bc428d9e17422db1de56",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/wordpress-migration/static/js/2.e6be137e.chunk.js"
   },
   {
-    "revision": "990880aeb7605c6b476860960a1dcdeb",
+    "revision": "ac95b296409b70366821af9a03f2cc02",
     "url": "/wordpress-migration/index.html"
   }
 ];

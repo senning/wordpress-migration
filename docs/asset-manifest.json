@@ -1,13 +1,13 @@
 {
-  "main.css": "/wordpress-migration/static/css/main.cce3c9df.chunk.css",
-  "main.js": "/wordpress-migration/static/js/main.a54d0006.chunk.js",
-  "main.js.map": "/wordpress-migration/static/js/main.a54d0006.chunk.js.map",
+  "main.css": "/wordpress-migration/static/css/main.79727c34.chunk.css",
+  "main.js": "/wordpress-migration/static/js/main.de97d5e3.chunk.js",
+  "main.js.map": "/wordpress-migration/static/js/main.de97d5e3.chunk.js.map",
   "runtime~main.js": "/wordpress-migration/static/js/runtime~main.bc428d9e.js",
   "runtime~main.js.map": "/wordpress-migration/static/js/runtime~main.bc428d9e.js.map",
   "static/js/2.e6be137e.chunk.js": "/wordpress-migration/static/js/2.e6be137e.chunk.js",
   "static/js/2.e6be137e.chunk.js.map": "/wordpress-migration/static/js/2.e6be137e.chunk.js.map",
   "index.html": "/wordpress-migration/index.html",
-  "precache-manifest.3c30e567866fc3312fc29a328f1ccf77.js": "/wordpress-migration/precache-manifest.3c30e567866fc3312fc29a328f1ccf77.js",
+  "precache-manifest.c5764f1b3154728152c346be3104d5cc.js": "/wordpress-migration/precache-manifest.c5764f1b3154728152c346be3104d5cc.js",
   "service-worker.js": "/wordpress-migration/service-worker.js",
-  "static/css/main.cce3c9df.chunk.css.map": "/wordpress-migration/static/css/main.cce3c9df.chunk.css.map"
+  "static/css/main.79727c34.chunk.css.map": "/wordpress-migration/static/css/main.79727c34.chunk.css.map"
 }
