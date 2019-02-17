@@ -19,7 +19,6 @@ class Input extends Component {
       value = this.props.validator(value);
     }
     // this.props.onChange(value);
-    console.log("oc", this.context);
     this.context.update(this.props.instance, this.props.name, value);
 
     this.setState({
@@ -43,13 +42,16 @@ class Input extends Component {
     let containerClass = "input-container";
     containerClass += this.state.focus ? " is-focussed" : "";
 
+    let inputClass = "input-control ";
+    inputClass += "input--"+this.props.instance+"-"+this.props.name;
+
     return (
       <label className={containerClass}>
         <span 
           className="input-label"
           >{this.props.label}</span>
         <input
-          className="input-control"
+          className={inputClass}
           type={this.props.type}
           value={this.context[this.props.instance][this.props.name]}
           onChange={this.onChange}

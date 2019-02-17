@@ -45,7 +45,7 @@ class App extends Component {
           <h1 className="header-title">WordPress Migration SQL Maker</h1>
           <p className="header-credit"><a href="https://medium.com/@senning">@senning</a></p>
         </header>
-        <section className="body">
+        <main className="body" role="main">
           <SitesContext.Provider value={this.state}>
             <Instance 
               instance="old"
@@ -57,7 +57,7 @@ class App extends Component {
               />
             <Commands />
           </SitesContext.Provider>
-        </section>
+        </main>
       </div>
     );
   }

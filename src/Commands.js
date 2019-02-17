@@ -23,14 +23,14 @@ class Commands extends Component {
     return (
       <div className="commands">
         <h1 className="commands-title">Here's your SQL:</h1>
-        <p>UPDATE {this.context.new.prefix}options SET option_value = replace(option_value, '{this.context.old.url}', '{this.context.new.url}');</p>
-        <p>UPDATE {this.context.new.prefix}posts SET guid = replace(guid, '{this.context.old.url}', '{this.context.new.url}') WHERE post_type &lt;&gt; 'attachment';</p>
-        <p>UPDATE {this.context.new.prefix}posts SET post_content = replace(post_content, '{this.context.old.url}', '{this.context.new.url}');</p>
-        <p>UPDATE {this.context.new.prefix}postmeta SET meta_value = replace(meta_value, '{this.context.old.url}', '{this.context.new.url}');</p>
+        <p className="commands-options">UPDATE {this.context.new.prefix}options SET option_value = replace(option_value, '{this.context.old.url}', '{this.context.new.url}');</p>
+        <p className="commands-guid">UPDATE {this.context.new.prefix}posts SET guid = replace(guid, '{this.context.old.url}', '{this.context.new.url}') WHERE post_type &lt;&gt; 'attachment';</p>
+        <p className="commands-content">UPDATE {this.context.new.prefix}posts SET post_content = replace(post_content, '{this.context.old.url}', '{this.context.new.url}');</p>
+        <p className="commands-postmeta">UPDATE {this.context.new.prefix}postmeta SET meta_value = replace(meta_value, '{this.context.old.url}', '{this.context.new.url}');</p>
         { this.context.new.prefix !== this.context.old.prefix ?
           <Fragment>
-            <p>UPDATE {this.context.new.prefix}usermeta SET meta_key = replace(meta_key, '{this.context.old.prefix}', '{this.context.new.prefix}');</p>
-            <p>UPDATE {this.context.new.prefix}options SET option_name = replace(option_name, '{this.context.old.prefix}', '{this.context.new.prefix}');</p>
+            <p className="commands-usermeta">UPDATE {this.context.new.prefix}usermeta SET meta_key = replace(meta_key, '{this.context.old.prefix}', '{this.context.new.prefix}');</p>
+            <p className="commands-optionsPrefix">UPDATE {this.context.new.prefix}options SET option_name = replace(option_name, '{this.context.old.prefix}', '{this.context.new.prefix}');</p>
           </Fragment>
           : ""
         }

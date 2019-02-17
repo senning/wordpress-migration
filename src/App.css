@@ -1,7 +1,7 @@
 /* Structure */
 body{
-  /*background: #bc94c5;*/
-  background: url('90fed004.png');
+  background-color: #bc94c5;
+  background-image: url('90fed004.png');
 }
 
 .App{
