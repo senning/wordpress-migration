@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import Input from './Input';
 
 class WordPressInstance extends Component {
-  onChangePrefix(value){
-    
-  }
 
   /**
    * Check the site URL for a protocol
@@ -22,20 +19,19 @@ class WordPressInstance extends Component {
 
   render() {
     return (
-      <div>
-        <h1>{this.props.label}</h1>
+      <div className="instance">
+        <h1 className="instance-title">{this.props.label}</h1>
         <Input
+          instance={this.props.instance}
           label="Site URL"
-          name="site-name"
-          onChange={this.props.onChangeSiteUrl}
+          name="url"
           validator={this.autoProtocol}
-          defaultValue="https://"
           />
         <Input
+          instance={this.props.instance}
           label="Table Prefix"
-          name="table-prefix"
+          name="prefix"
           defaultValue="wp_"
-          onChange={this.onChangePrefix}
           />
       </div>
     );

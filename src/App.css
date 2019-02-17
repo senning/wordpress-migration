@@ -1,33 +1,184 @@
-.App {
-  text-align: center;
+/* Structure */
+body{
+  /*background: #bc94c5;*/
+  background: url('90fed004.png');
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
+.App{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.body{
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.instance {
+  display: block;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #3B1C40;
+}
+
+
+.commands{ 
+  position: relative;
+  background: #3B1C40;
+  padding: 20px;
+  box-shadow: 5px 5px rgba(0,0,0,0.4);
+  max-width: 40em;
+  margin: 4em auto 0;
+}
+
+/* Header */
+.header{
+  color: #3B1C40;
+  text-align: center;
+  padding-bottom: 2em;  
+}
+
+.header-title{
+  margin-bottom:0;
+}
+
+.header-credit{
+  margin-top: 0;
+}
+
+.header a{
+  color: #3B1C40;
+}
+
+/* Instance */
+.instance-title,
+.commands-title{
+  font-size: 1em;
+  margin-top: 0;
+  line-height: 1;
+  margin-bottom: 2em;
+  color: #f7baa1;
+}
+
+/* Inputs */
+.input-container{
+  border: 2px solid #C09303;
+  border-radius: 5px;
+  display: block;
+  padding: .25em 10px 5px;
+  position: relative;
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+  transition: border 0.3s;
+}
+
+.input-container.is-focussed{
+  border-color: #ffffff;
+}
+
+.input-label{
+  font-size: .5em;
+  top: -.5em;
+  position: absolute;
+  line-height: 1;
+  background: #3B1C40;
+  color: #C09303;
+  padding: 0 5px;
+  margin-left: -5px;
+  transition: color 0.3s;
+}
+
+.input-container.is-focussed .input-label,
+.input-container.is-focussed .input-control{
+  color: #ffffff;
+}
+
+.input-control{
+  border: none;
+  font-size: 1em;
+  width: 100%;
+  background: transparent;
+  color: #C09303;
+  transition: color 0.3s;
+}
+
+.input-control:focus{
+  border: none;
+  outline: 0;
+}
+
+/**
+ * Commands
+ */
+.commands p,
+.commands li{
+  font-family: monospace;
+  color: #f7baa1;
+}
+
+
+/**
+ * Hints
+ */
+.hint-trigger{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: .5em;
+  background: transparent;
+  border: 2px solid #f7baa1;
+  border-radius: 50%;
+  color: #f7baa1;
+  font-weight: bold;
+  line-height: 1;
+  width: 3em;
+  height: 3em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hint-trigger:hover,
+.hint-trigger:active{
+  background: #f7baa1;
+  color: #3B1C40;
+}
+
+@media screen and (max-width: 767px){
+  .instance,
+  .commands{
+    margin: 0 5px 1em;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (min-width: 768px){
+  .App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+  }
+
+  .instance {
+    width: 50%;
+    width: calc(50% - 2em);
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  .instance:nth-child(1){
+    margin-right: 4em;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+  }
+
+  .instance:nth-child(2){
+    box-shadow: -5px 5px rgba(0,0,0,0.4);
+  }
+
+  .commands{
+    min-height: 19em;
+    box-shadow: 0px 5px rgba(0,0,0,0.4);
   }
 }

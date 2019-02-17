@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { SitesContext } from './SitesContext';
 
 class Input extends Component {
   constructor(props){
@@ -8,6 +9,8 @@ class Input extends Component {
     this.state = {value: this.props.defaultValue}
 
     this.onChange = this.onChange.bind(this);
+    this.onFocus = this.onFocus.bind(this);
+    this.onBlur = this.onBlur.bind(this);
   }
 
   onChange(event){
@@ -15,24 +18,44 @@ class Input extends Component {
     if(typeof this.props.validator === "function"){
       value = this.props.validator(value);
     }
-    this.props.onChange(value);
+    // this.props.onChange(value);
+    console.log("oc", this.context);
+    this.context.update(this.props.instance, this.props.name, value);
 
     this.setState({
       value: value
     });
   }
 
+  onFocus(){
+    this.setState({
+      focus: true
+    })
+  }
+
+  onBlur(){
+    this.setState({
+      focus: false
+    })
+  }
+
   render() {
+    let containerClass = "input-container";
+    containerClass += this.state.focus ? " is-focussed" : "";
+
     return (
-      <label className="input-container">
+      <label className={containerClass}>
         <span 
           className="input-label"
           >{this.props.label}</span>
-        <input 
-          type={this.props.type} 
-          name={this.props.name}
-          value={this.state.value}
-          onChange={this.onChange} 
+        <input
+          className="input-control"
+          type={this.props.type}
+          value={this.context[this.props.instance][this.props.name]}
+          onChange={this.onChange}
+          onFocus={this.onFocus}
+          onBlur={this.onBlur}
+          autoFocus={this.context.autofocus === this.props.instance+"-"+this.props.name}
           />
       </label>
     );
@@ -46,5 +69,7 @@ Input.defaultProps = {
   defaultValue: "",
   onChange: function(){}
 }
+
+Input.contextType = SitesContext;
 
 export default Input;
