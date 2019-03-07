@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/wordpress-migration/static/js/runtime~main.bc428d9e.js"
   },
   {
-    "revision": "e6be137ed5794e8e3798",
-    "url": "/wordpress-migration/static/js/2.e6be137e.chunk.js"
+    "revision": "571472fa7f1289dd227b",
+    "url": "/wordpress-migration/static/js/2.571472fa.chunk.js"
   },
   {
-    "revision": "ac95b296409b70366821af9a03f2cc02",
+    "revision": "65d711f84030ac2d4078bff800602ecc",
     "url": "/wordpress-migration/index.html"
   }
 ];
