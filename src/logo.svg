@@ -16,9 +16,9 @@
    id="svg8"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    sodipodi:docname="logo.svg"
-   inkscape:export-filename="/Users/senning/Sites/wordpress-migration/public/icon-64.png"
-   inkscape:export-xdpi="48"
-   inkscape:export-ydpi="48">
+   inkscape:export-filename="/Users/senning/Sites/wordpress-migration/public/icon-512.png"
+   inkscape:export-xdpi="384"
+   inkscape:export-ydpi="384">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="20.894488"
-     inkscape:cy="82.598846"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="132.22408"
+     inkscape:cy="62.51681"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,29 +56,66 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-263.13332)">
-    <rect
-       style="opacity:1;fill:#c09303;fill-opacity:1;stroke:none;stroke-width:2.49619412;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect822"
-       width="26.458334"
-       height="26.458334"
-       x="5.2916665"
-       y="266.83749"
-       rx="1.3229166"
-       ry="1.3229166" />
-    <rect
-       ry="1.1162109"
-       rx="1.1162109"
-       y="268.1604"
-       x="6.6145835"
-       height="23.8125"
-       width="23.8125"
-       id="rect824"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.24657488;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     transform="translate(0,-263.13332)"
+     style="display:inline">
+    <ellipse
+       style="opacity:1;fill:#69576d;fill-opacity:0;stroke:none;stroke-width:2.59657168;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse842"
+       cx="16.933332"
+       cy="280.06665"
+       rx="13.229167"
+       ry="3.7041667" />
     <path
-       style="fill:#3b1c4f;fill-opacity:0.94117647;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 0 0 L 34.638672 55.421875 L 70 63 L 70 64 L 35.361328 71.421875 L 0 128 L 128 64 L 128 63 L 0 0 z "
+       style="opacity:1;fill:#3b1c40;fill-opacity:1;stroke:none;stroke-width:9.43443489;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 64 0 A 49.999999 14 0 0 0 16.072266 10.044922 L 56.578125 35.361328 L 64 70 A 50 14 0 0 0 65.003906 69.986328 L 72.578125 34.638672 L 111.93164 10.042969 A 49.999999 14 0 0 0 64 0 z M 14 28 L 14 56 L 14 56.189453 L 14.023438 56.189453 A 50 14 0 0 0 33.548828 67.099609 L 14 28 z M 114 28.445312 L 95.048828 66.949219 A 50 14 0 0 0 113.9668 56.189453 L 114 56.189453 L 114 56 L 114 28.445312 z M 14 63.777344 L 14 114 A 49.999999 14 0 0 0 64 128 L 37.845703 75.693359 C 23.557701 73.228977 14 68.820919 14 63.777344 z M 114 63.777344 C 114 68.74538 104.73125 73.099085 90.798828 75.583984 L 65.007812 127.98633 A 49.999999 14 0 0 0 114 114 L 114 63.777344 z "
        transform="matrix(0.26458333,0,0,0.26458333,0,263.13332)"
-       id="path815" />
+       id="rect822" />
+    <ellipse
+       ry="3.33375"
+       rx="11.90625"
+       cy="267.20792"
+       cx="16.933332"
+       id="ellipse844"
+       style="opacity:1;fill:#69576d;fill-opacity:0;stroke:none;stroke-width:2.33691454;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       y="266.83749"
+       x="119.23142"
+       height="26.458334"
+       width="26.458334"
+       id="rect824"
+       style="opacity:1;fill:#3b1c40;fill-opacity:1;stroke:none;stroke-width:2.49619412;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       ry="3.7041667"
+       rx="13.229167"
+       cy="279.00833"
+       cx="132.46059"
+       id="ellipse826"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.59657168;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       ry="3.7041667"
+       rx="13.229167"
+       cy="266.83749"
+       cx="132.46059"
+       id="ellipse828"
+       style="opacity:1;fill:#3b1c40;fill-opacity:1;stroke:none;stroke-width:2.59657168;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       style="opacity:1;fill:#3b1c40;fill-opacity:1;stroke:none;stroke-width:2.59657168;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse830"
+       cx="132.46059"
+       cy="293.29581"
+       rx="13.229167"
+       ry="3.7041667" />
+    <ellipse
+       style="opacity:1;fill:#3b1c40;fill-opacity:1;stroke:none;stroke-width:2.59657168;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse832"
+       cx="132.46059"
+       cy="277.95001"
+       rx="13.229167"
+       ry="3.7041667" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path834"
+       d="m 149.39392,263.13332 -14.66371,9.16482 -2.00504,9.35601 h -0.26458 l -1.96371,-9.16481 -14.96963,-9.35602 16.93334,33.86667 h 0.26458 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
 </svg>
