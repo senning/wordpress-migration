@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/wordpress-migration/static/js/2.571472fa.chunk.js"
   },
   {
-    "revision": "65d711f84030ac2d4078bff800602ecc",
+    "revision": "57c48fb1dcc43b3d00733188e7d90e05",
     "url": "/wordpress-migration/index.html"
   }
 ];
